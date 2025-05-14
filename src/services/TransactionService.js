@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const REST_API_BASE_URL = 'http://localhost:8080/api/transactions';
+const REST_API_BASE_URL = 'https://saurabh55-dev.github.io/fintrack-backend-api/api/transactions';
 
 export const listTransactions = () => axios.get(REST_API_BASE_URL);
 
